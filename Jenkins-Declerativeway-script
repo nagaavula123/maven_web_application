@@ -25,7 +25,7 @@ stages {
       git credentialsId: '08e9cecc-a6b1-4bcd-9b61-2c1a0a7b2878', url: 'https://github.com/nagaavula123/maven_web_application.git'
     }
   }
-
+/*
 //Do the build
 stage('Build') {
   steps {
@@ -54,6 +54,7 @@ stage('deployAppIntoTomcatServer') {
 }
   }
 }
+*/
 }//stages closing tag
 
 post {
